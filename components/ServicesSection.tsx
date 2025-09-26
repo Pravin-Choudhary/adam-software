@@ -6,6 +6,7 @@ import cloudIcon from "@/assets/cloud-migration-icon.png";
 import appIcon from "@/assets/app-modernization-icon.png";
 import servicesIcon from "@/assets/professional-services-icon.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const ServicesSection = () => {
   const services = [
@@ -14,28 +15,32 @@ const ServicesSection = () => {
       title: "Data Asset Modernization",
       description: "Transform your data infrastructure with modern analytics platforms, AI-driven insights, and scalable data architectures that unlock business value.",
       icon: dataIcon,
-      features: ["Data Migration", "Analytics Platforms", "AI Integration", "Real-time Processing"]
+      features: ["Data Migration", "Analytics Platforms", "AI Integration", "Real-time Processing"],
+      href : '/data-asset-modernization'
     },
     {
       id: "cloud-migration",
       title: "Cloud Migration",
       description: "Seamlessly transition to cloud platforms with our proven methodologies, ensuring minimal downtime and maximum performance optimization.",
       icon: cloudIcon,
-      features: ["AWS/Azure/GCP", "Zero-Downtime Migration", "Cost Optimization", "Security First"]
+      features: ["AWS/Azure/GCP", "Zero-Downtime Migration", "Cost Optimization", "Security First"],
+       href : '/cloud-migration'
     },
     {
       id: "app-modernization",
       title: "Application Modernization",
       description: "Modernize legacy applications with microservices, containerization, and cloud-native architectures for enhanced scalability and performance.",
       icon: appIcon,
-      features: ["Microservices", "Containerization", "DevOps Integration", "Performance Tuning"]
+      features: ["Microservices", "Containerization", "DevOps Integration", "Performance Tuning"],
+       href : '/application-modernization'
     },
     {
       id: "professional-services",
       title: "Professional Services",
       description: "Expert consulting and staffing solutions to accelerate your digital transformation journey with the right talent and strategic guidance.",
       icon: servicesIcon,
-      features: ["IT Consulting", "Staff Augmentation", "Project Management", "Strategic Planning"]
+      features: ["IT Consulting", "Staff Augmentation", "Project Management", "Strategic Planning"],
+       href : '/professional-services'
     }
   ];
 
@@ -89,6 +94,8 @@ const ServicesSection = () => {
                   </div>
                 </div>
                 
+                <Link
+                 href={service.href}>
                 <Button 
                   variant="outline" 
                   className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300"
@@ -96,18 +103,12 @@ const ServicesSection = () => {
                   Learn More
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
                 </Button>
+              </Link>
               </CardContent>
             </Card>
           ))}
         </div>
 
-        {/* CTA Section */}
-        <div className="text-center">
-          <Button size="lg" className="bg-primary hover:bg-primary-light px-8 py-4 text-lg font-semibold">
-            Discuss Your Project
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-        </div>
       </div>
     </section>
   );

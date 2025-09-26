@@ -9,20 +9,20 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-gray-50 mt-18">
 
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-[#154fa1] text-white py-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+              <h1 className="text-4xl lg:text-5xl font-medium tracking-wide mb-6">
                 Qualified Development<br />
                 Resources. At a Click!
               </h1>
-              <p className="text-lg mb-8 text-blue-100">
+              <p className="text-base mb-8 text-blue-100">
                 Developing innovative and revolutionary business solutions is our passion! From data modernization to IT staffing, you can depend on Strong Point for the most valued solutions.
               </p>
               <Link
                href='/contact'>
-                <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                <button className="bg-white text-[#154fa1] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                     Get in touch
                 </button>
               </Link>
@@ -54,10 +54,10 @@ const Services = () => {
       </section>
 
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-20 relative bottom-32">
         
 
-        <section className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
+        <section className="bg-white rounded-2xl shadow-lg p-8 py-20 lg:p-12 lg:py-40 ">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Data Asset Modernization</h2>
@@ -70,7 +70,7 @@ const Services = () => {
               </p>
             <Link
             href='/data-asset-modernization'>
-              <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              <button className="bg-[#154fa1] text-white px-6 py-3 rounded-lg font-semibold transition-colors">
                 Learn more
               </button>
             </Link>
@@ -96,7 +96,7 @@ const Services = () => {
         </section>
 
 
-        <section className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
+        <section className="bg-white rounded-2xl shadow-lg p-8 py-20 lg:p-12 lg:py-40">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="lg:order-2">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Cloud Migration</h2>
@@ -107,7 +107,7 @@ const Services = () => {
               </p>
             <Link
             href='/cloud-migration'>
-              <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              <button className="bg-[#154fa1] text-white px-6 py-3 rounded-lg font-semibold transition-colors">
                 Learn more
               </button>
             </Link>
@@ -129,7 +129,7 @@ const Services = () => {
           </div>
         </section>
 
-        <section className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
+        <section className="bg-white rounded-2xl shadow-lg p-8 py-20 lg:p-12 lg:py-40">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Application Modernization</h2>
@@ -141,7 +141,7 @@ const Services = () => {
               </p>
             <Link
             href='/application-modernization'>
-              <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+             <button className="bg-[#154fa1] text-white px-6 py-3 rounded-lg font-semibold transition-colors">
                 Learn more
               </button>
             </Link>
@@ -172,7 +172,7 @@ const Services = () => {
         </section>
 
 
-        <section className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
+        <section className="bg-white rounded-2xl shadow-lg p-8 py-20 lg:p-12 lg:py-40">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="lg:order-2">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Professional Services</h2>
@@ -183,7 +183,7 @@ const Services = () => {
               </p>
             <Link
             href='/professional-services'>
-              <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+             <button className="bg-[#154fa1] text-white px-8 py-4 rounded-lg font-medium text-lg transition-colors">
                 Learn more
               </button>
             </Link>

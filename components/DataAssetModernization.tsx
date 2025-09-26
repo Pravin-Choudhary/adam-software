@@ -63,7 +63,7 @@ const DataAssestModernization = () => {
         </div>
       </section>
 
-      <section className="py-5 relative bottom-20 ">
+      <section className="py-5 relative bottom-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
             <div className="prose max-w-none">

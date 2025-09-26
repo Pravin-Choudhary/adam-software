@@ -17,9 +17,6 @@ const Index = () => {
       <section id="team">
       <TeamSection />
       </section>
-      <section id="careers">
-      <CareersSection />
-      </section>
       <Footer />
     </div>
   );

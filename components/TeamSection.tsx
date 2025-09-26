@@ -6,6 +6,7 @@ import ctoImage from "@/assets/team-cto.jpg";
 import leadDevImage from "@/assets/team-lead-dev.jpg";
 import vpOpsImage from "@/assets/team-vp-ops.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 const TeamSection = () => {
   const teamMembers = [
@@ -125,9 +126,11 @@ const TeamSection = () => {
             Our team is ready to discuss your project and provide tailored solutions 
             that drive your business forward.
           </p>
+        <Link href='/contact'>
           <Button size="lg" className="bg-primary hover:bg-primary-light px-8 py-4 text-lg font-semibold">
             Schedule a Consultation
           </Button>
+        </Link>
         </div>
       </div>
     </section>

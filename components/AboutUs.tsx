@@ -2,6 +2,8 @@
 import { Cloud, Database, Shield, ArrowRight, BarChart3, Zap } from 'lucide-react';
 import PageCarrerSection from './PageCarrerSection';
 import Footer from './Footer';
+import { Button } from './ui/button';
+import Link from 'next/link';
 
 const AboutUS = () => {
   return (
@@ -17,6 +19,9 @@ const AboutUS = () => {
               <p className="text-lg text-purple-100 leading-relaxed">
                 Our customer-centric approach and experience in adopting and transforming modernization programs for enterprises makes us one of the pioneers in the technology modernization sector!
               </p>
+              <Link href='/contact'>
+                   <Button className='mt-6 text-base md:text-lg' size={'lg'}>Get In Touch</Button>
+              </Link>
             </div>
             <div className="relative flex justify-center">
              
@@ -63,38 +68,22 @@ const AboutUS = () => {
         </div>
       </section>
 
+  
       <section className="py-5 relative bottom-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
             <div className="prose max-w-none">
-              <p className="text-gray-700 text-base leading-relaxed mb-6">
-                In today’s era, data is really the new oil! Infinite amount of data is generated every minute in countless formats. 
-                With so much data scattered all over, many companies are unable to utilize the data in a proper manner.
-                Modernizing data is all about extending, retaining, and reusing the information under these layers.
-                It involves creating a scalable and flexible data stack without much complexities and restrictions.
-              </p>
-              
-              <p className="text-gray-900 text-base font-semibold leading-relaxed mb-6">
-                Why should you modernize your data?  
-              </p>
-              
-              <p className="text-gray-700 text-base leading-relaxed mb-6">
-                Data asset modernization is the key to enable enhanced compliance. In addition, it also assures 
-                cost-efficiency and the potential to enlighten the stakeholders with extensive business insights and revolutionary analytics capabilities.
-              </p>
-              
-              <h3 className="text-base text-gray-700 mb-4">
-                With the latest data readily available with the help of data asset modernization, many companies can quickly adapt to the rapidly changing market and outsmart their rivals with ease.
-              </h3>
-              
-              <p className="text-gray-700 text-base leading-relaxed mb-8">
-                Many companies are revamping their data environment in response to the wide changes in the data landscape.
-                Making the most of the available data is also a critical component to success.
-              </p>
-              
-              <button className="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
-                Have a question?
-              </button>
+            <div className='flex justify-center'>
+              <h1 className="text-gray-700 text-2xl md:text-4xl font-semibold tracking-normal leading-relaxed mb-6">
+                Exceptional Services. Outstanding Performance!
+              </h1>
+            </div>
+            <div>
+                <p>
+                  Our talented workforce always strives to deliver superior and excellent technical solutions through a customer-centric approach! With rich experience in technology development, we are always committed to offer complete satisfaction to our clients. We also provide customized solutions according to the requirement of the clients!
+                </p>
+            </div>
+
             </div>
           </div>
         </div>

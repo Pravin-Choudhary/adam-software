@@ -9,7 +9,7 @@ export default function PageCarrerSection() {
            <div className='flex justify-center mb-6'>
                  <Image src='/ASLogo.png' alt='adamSoftwareLogo' width={350} height={100} className="object-cover block"/>
           </div>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Career with Strong Point</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">Career with Adam Software Services</h2>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
             We always keep our 'WORK-WORK' on the scale which permits individuals who are equally excited and curious to 
             dream big and help move our technologies.

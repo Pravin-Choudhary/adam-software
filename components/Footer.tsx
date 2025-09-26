@@ -38,21 +38,6 @@ const Footer = () => {
               Let's discuss how we can help you modernize your technology infrastructure 
               and accelerate your digital transformation journey.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
-                className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-lg font-semibold"
-              >
-                Start Your Project
-              </Button>
-              <Button 
-                variant="default" 
-                size="lg"
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-4 text-lg font-semibold"
-              >
-                Schedule Consultation
-              </Button>
-            </div>
           </div>
         </div>
       </div>
