@@ -1,4 +1,4 @@
-import Navigation from "@/components/Navigation";
+
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
 import TeamSection from "@/components/TeamSection";
@@ -10,7 +10,6 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* <Navigation /> */}
-      <NavigationBar/>
       <HeroSection />
       <section id="service">
       <ServicesSection />

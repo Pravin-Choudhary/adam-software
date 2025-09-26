@@ -1,5 +1,5 @@
-import { BookOpenIcon, InfoIcon, LifeBuoyIcon } from "lucide-react"
 
+import { Database, CloudUpload, Boxes, Users } from "lucide-react";
 import Logo from "@/components/logo"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -19,14 +19,14 @@ import {
 
 
 const navigationLinks = [
-  { href: "#", label: "Home" },
+  { href: "/", label: "Home" },
   {
     label: "About Us",
     submenu: true,
     type: "description",
     items: [
       {
-        href: "#team",
+        href: "/about-us/#team",
         label: "Team",
         description: "Learn how to use the library.",
       },
@@ -35,33 +35,25 @@ const navigationLinks = [
   {
     label: "Service",
     submenu: true,
-    type: "simple",
+    type: "icon",
     items: [
-      { href: "#service", label: "Service A" },
-      { href: "#service", label: "Service B" },
+      { href: "/data-asset-modernization", label: "Data Asset Modernization", icon: "Database" },
+      { href: "/cloud-migration", label: "Cloud Migration", icon: "CloudUpload" },
+      { href: "/application-modernization", label: "Application Modernization", icon: "Boxes" },
+      { href: "/professional-services", label: "Professional Services", icon: "Users" },
     ],
   },
-  // {
-  //   label: "Careers",
-  //   submenu: true,
-  //   type: "icon",
-  //   items: [
-  //     { href: "#", label: "Getting Started", icon: "BookOpenIcon" },
-  //     { href: "#", label: "Tutorials", icon: "LifeBuoyIcon" },
-  //     { href: "#", label: "About Us", icon: "InfoIcon" },
-  //   ],
-  // },
    { href: "#careers", label: "Careers" },
    { href: "/contact", label: "Contact Us"},
 ]
 
 export default function NavigationBar() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-background border-b px-4 md:px-6 ">
+    <header className="fixed top-0 left-0 w-full z-50 bg-background  px-4 md:px-6">
       <div className="flex h-18 items-center justify-between gap-4 md:mx-10">
-        {/* Left side */}
+
         <div className="flex items-center justify-center gap-2 p-2 w-full">
-          {/* Mobile menu trigger */}
+
           <Popover>
             <PopoverTrigger asChild>
               <Button
@@ -179,23 +171,30 @@ export default function NavigationBar() {
                                 >
                                   {/* Display icon if present */}
                                   {link.type === "icon" && "icon" in item && (
-                                    <div className="flex items-center gap-2">
-                                      {item.icon === "BookOpenIcon" && (
-                                        <BookOpenIcon
+                                    <div className="flex items-center gap-4">
+                                      {item.icon === "Database" && (
+                                        <Database
                                           size={16}
                                           className="text-foreground opacity-60"
                                           aria-hidden="true"
                                         />
                                       )}
-                                      {item.icon === "LifeBuoyIcon" && (
-                                        <LifeBuoyIcon
+                                      {item.icon === "CloudUpload" && (
+                                        <CloudUpload
                                           size={16}
                                           className="text-foreground opacity-60"
                                           aria-hidden="true"
                                         />
                                       )}
-                                      {item.icon === "InfoIcon" && (
-                                        <InfoIcon
+                                      {item.icon === "Boxes" && (
+                                        <Boxes
+                                          size={16}
+                                          className="text-foreground opacity-60"
+                                          aria-hidden="true"
+                                        />
+                                      )}
+                                      {item.icon === "Users" && (
+                                        <Users
                                           size={16}
                                           className="text-foreground opacity-60"
                                           aria-hidden="true"

@@ -5,7 +5,7 @@ export default function Logo() {
      <Image
       src='/ASLogo.png'
       alt="AdamSoftware-Logo"
-      width={200} height={115}
+      width={110} height={80}
      />
   )
 }

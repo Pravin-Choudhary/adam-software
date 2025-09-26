@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -25,14 +26,21 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Link
+             href={'/services'}>
             <Button 
               size="lg" 
               className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-lg font-semibold"
             >
+            <span className="flex items-center">
               Discover Our Services
               <ArrowRight className="ml-2 h-5 w-5" />
+            </span>
             </Button>
+            </Link>
             
+            <Link
+             href={'#team'}>
             <Button 
               variant="default" 
               size="lg"
@@ -40,6 +48,7 @@ const HeroSection = () => {
             >
               Meet Our Team
             </Button>
+            </Link>
           </div>
         </div>
       </div>

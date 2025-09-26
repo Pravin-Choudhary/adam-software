@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+  import { Button } from "@/components/ui/button";
 import { Linkedin, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
@@ -78,11 +78,14 @@ const Footer = () => {
               </div>
               <div className="flex items-center text-primary-foreground/80">
                 <Mail className="h-4 w-4 mr-3" />
-                <span>adamSoftwareServices@gmail.com</span>
+                <span>info@adamsoftwareservices.com</span>
               </div>
               <div className="flex items-center text-primary-foreground/80">
                 <MapPin className="h-4 w-4 mr-3" />
-                <span>India | Pune | Remote</span>
+                <span>Global Headquarters
+                  Corporate Center, 1600 Golf Road, Suite 1200, Rolling Meadow, IL 60008 
+                  India Headquarters 
+                  Corporate Annexe, 8th Floor, #802, Sonawala Lane, Goregoan East, Mumbai 400063</span>
               </div>
             </div>
 
