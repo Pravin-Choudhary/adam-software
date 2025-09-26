@@ -2,6 +2,7 @@ import React from 'react';
 import { Cloud, Server, Database, Shield, ArrowRight, BarChart3, Zap } from 'lucide-react';
 import PageCarrerSection from './PageCarrerSection';
 import Footer from './Footer';
+import Link from 'next/link';
 
 const DataAssestModernization = () => {
   return (
@@ -89,9 +90,11 @@ const DataAssestModernization = () => {
                 Many companies are revamping their data environment in response to the wide changes in the data landscape. Making the most of the available data is also a critical component to success.
               </p>
               
+              <Link href='/contact'>
               <button className="bg-[#753a88] text-white px-6 py-3 rounded-lg text-lg transition-colors">
                 Have a question?
               </button>
+              </Link>
             </div>
           </div>
         </div>

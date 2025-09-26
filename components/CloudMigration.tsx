@@ -2,6 +2,7 @@ import React from 'react';
 import { Cloud, Server, Database, Shield, ArrowRight } from 'lucide-react';
 import PageCarrerSection from './PageCarrerSection';
 import Footer from './Footer';
+import Link from 'next/link';
 
 const CloudMigration = () => {
   return (
@@ -95,9 +96,11 @@ const CloudMigration = () => {
                 as periodic updates, security analytics, and cross-enterprise visibility.
               </p>
               
+              <Link href='/contact'>
               <button className="bg-[#753a88] text-white px-6 py-3 rounded-lg text-lg transition-colors">
                 Have a question?
               </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@
 import { Cloud, Server, Database, Shield, ArrowRight, Smartphone, Globe, Layers, RefreshCw } from 'lucide-react';
 import PageCarrerSection from './PageCarrerSection';
 import Footer from './Footer';
+import Link from 'next/link';
 
 const ApplicationModernization = () => {
   return (
@@ -84,10 +85,12 @@ const ApplicationModernization = () => {
               <p className="text-[#343a40] text-base leading-relaxed mb-5">
                 Lastly, when you choose Strong Point, you are opting for the best application modernization services! We develop, manage, and modernize applications with enhanced security across hybrid cloud environments.
               </p>
-              
+
+              <Link href='/contact'>
               <button className="bg-[#753a88] text-white px-6 py-3 rounded-lg text-lg transition-colors">
                 Have a question?
               </button>
+              </Link>
             </div>
           </div>
         </div>

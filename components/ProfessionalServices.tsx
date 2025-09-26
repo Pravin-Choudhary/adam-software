@@ -2,6 +2,7 @@
 import { Cloud, Server, Database, Shield, ArrowRight, Target, Award, Clock, Users } from 'lucide-react';
 import PageCarrerSection from './PageCarrerSection';
 import Footer from './Footer';
+import Link from 'next/link';
 
 const ProfessionalServices = () => {
   return (
@@ -81,9 +82,11 @@ const ProfessionalServices = () => {
                 Strong Point Consulting has the best pool of talented individuals who can prove to be an asset to your organization. We have a systematic approach for selecting and recruiting candidates who can help in adding value to your organization!
               </h3>
               
+              <Link href='/contact'>
               <button className="bg-[#753a88] text-white px-6 py-3 rounded-lg text-lg transition-colors">
                 Have a question?
               </button>
+              </Link>
             </div>
           </div>
         </div>
