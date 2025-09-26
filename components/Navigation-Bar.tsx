@@ -26,9 +26,19 @@ const navigationLinks = [
     type: "description",
     items: [
       {
+        href: "/about-us/#introduction",
+        label: "Introduction",
+        description: "Brief overview of our journey",
+      },
+      {
         href: "/about-us/#team",
         label: "Team",
-        description: "Learn how to use the library.",
+        description: "Dedicated professionals behind success",
+      },
+            {
+        href: "/about-us/#vision",
+        label: "Vision",
+        description: "Inspiring goals shaping our future",
       },
     ],
   },

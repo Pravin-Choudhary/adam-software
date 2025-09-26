@@ -7,21 +7,19 @@ const ApplicationModernization = () => {
   return (
     <div className="min-h-screen bg-gray-50 mt-18">
 
-    
-      <section className="bg-gradient-to-br from-purple-600 via-purple-700 to-purple-800 text-white py-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+      <section className="bg-[#753a88] text-white py-40">
+        <div className="max-w-8xl w-[95%] mx-auto px-4 sm:px-6 lg:px-8  p-2">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center p-4">
+            <div className=' col-span-2'>
+              <h1 className="text-4xl lg:text-5xl font-medium mb-6">
                 Application Modernization
               </h1>
-              <p className="text-lg text-purple-100 leading-relaxed">
+              <p className="text-base text-purple-100 leading-relaxed">
                 Migrate your applications to an ethical and standards-based environment with minimal disruptions!
               </p>
             </div>
             <div className="relative flex justify-center">
-             
-              <div className="relative">
+              <div className="relative  col-span-1">
 
                 <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg transform rotate-12">
                   <div className="w-32 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
@@ -64,37 +62,30 @@ const ApplicationModernization = () => {
       </section>
 
       <section className="py-5 relative bottom-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
+        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
             <div className="prose max-w-none">
-              <p className="text-gray-700 text-base  leading-relaxed mb-6">
-                The IT landscape has transformed extensively over the years.
-                Relying on traditional legacy systems can be a deterrent to the growth structure of any organization.
-                Updating the existing legacy applications is the need of the hour. Application modernization does just that.
-                Instead of developing or deploying a new legacy application, upgrading the existing one proves to be beneficial and consumes less time.
-                These benefits are enough to convince any company to invest in application modernization services.
+              <p className="text-[#343a40] text-base leading-relaxed mb-4">
+               The IT landscape has transformed extensively over the years. Relying on traditional legacy systems can be a deterrent to the growth structure of any organization. Updating the existing legacy applications is the need of the hour. Application modernization does just that. Instead of developing or deploying a new legacy application, upgrading the existing one proves to be beneficial and consumes less time. These benefits are enough to convince any company to invest in application modernization services.
               </p>
               
-              <p className="text-gray-900 font-semibold text-base leading-relaxed mb-6">
-                 Why choose application modernization?
+              <p className="text-[#343a40] text-base leading-relaxed mb-4 font-semibold">
+                  Why choose application modernization?
               </p>
               
-              <p className="text-gray-700 text-base leading-relaxed mb-6">
-                Application modernization assists companies and firms in restructuring their legacy applications to align with the cloud environment. 
-                Furthermore, it also offers advantages like scalability, agility, and affordability..
+              <p className="text-[#343a40] text-base leading-relaxed mb-4">
+                Application modernization assists companies and firms in restructuring their legacy applications to align with the cloud environment. Furthermore, it also offers advantages like scalability, agility, and affordability.
               </p>
               
-              <h3 className="text-base  text-gray-700 mb-4">
-                Using outdated legacy applications can hinder the overall productivity of an organization. 
-                With application modernization, the legacy application gets a new and refreshed user interface, expansive functionalities,
-                and cutting-edge features, eventually enhancing productivity and boosting revenues.
+              <h3 className="text-base  text-[#343a40] mb-3">
+                Using outdated legacy applications can hinder the overall productivity of an organization. With application modernization, the legacy application gets a new and refreshed user interface, expansive functionalities, and cutting-edge features, eventually enhancing productivity and boosting revenues.
               </h3>
               
-              <p className="text-gray-700 text-base leading-relaxed mb-8">
+              <p className="text-[#343a40] text-base leading-relaxed mb-5">
                 Lastly, when you choose Strong Point, you are opting for the best application modernization services! We develop, manage, and modernize applications with enhanced security across hybrid cloud environments.
               </p>
               
-              <button className="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+              <button className="bg-[#753a88] text-white px-6 py-3 rounded-lg text-lg transition-colors">
                 Have a question?
               </button>
             </div>

@@ -7,23 +7,21 @@ const CloudMigration = () => {
   return (
     <div className="min-h-screen bg-gray-50 mt-18">
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-purple-600 via-purple-700 to-purple-800 text-white py-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+      <section className="bg-[#753a88] text-white py-40">
+        <div className="max-w-8xl w-[95%] mx-auto px-4 sm:px-6 lg:px-8  p-2">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center p-4">
+            <div className=' col-span-2'>
+              <h1 className="text-4xl lg:text-5xl font-medium mb-6">
                 Cloud Migration
               </h1>
-              <p className="text-lg text-purple-100 leading-relaxed">
+              <p className="text-base text-purple-100 leading-relaxed">
                 We understand your requirements and create the perfect cloud strategy by blending our rich 
                 experience with the latest technology!
               </p>
             </div>
             <div className="relative flex justify-center">
-              {/* Cloud Migration Illustration */}
-              <div className="relative">
-                {/* Laptop */}
+              <div className="relative  col-span-1">
+
                 <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg transform rotate-12">
                   <div className="w-32 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
                     <div className="text-white text-xs">Cloud Platform</div>
@@ -66,38 +64,38 @@ const CloudMigration = () => {
       </section>
 
       <section className="py-5 relative bottom-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
+        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
             <div className="prose max-w-none">
-              <p className="text-gray-700 text-base  leading-relaxed mb-6">
+              <p className="text-[#343a40] text-base leading-relaxed mb-4">
                 Cloud migration is a process through which a company's digital resources, services, and assets are 
                 deployed in the cloud. With excellent features and an array of benefits for a business, the cloud 
                 computing trend has seen exponential growth in the recent years.
               </p>
               
-              <p className="text-gray-700 text-base leading-relaxed mb-6">
+              <p className="text-[#343a40] text-base leading-relaxed mb-4">
                 Through our outstanding cloud migration services, we help you in determining the approach that work 
                 best for your organization to meet the business goals.
               </p>
               
-              <p className="text-gray-700 text-base leading-relaxed mb-6">
+              <p className="text-[#343a40] text-base leading-relaxed mb-4">
                 Furthermore, COVID-19 has prompted many companies to evolve from just a 'business' to a cloud business 
                 at an accelerated pace. With the emergence of the pandemic, companies shifted to a remote working 
                 environment, which necessitated the use of cloud to a great extent. This aspect is urging many 
                 companies to embrace cloud migration services.
               </p>
               
-              <h3 className="text-base  font-semibold text-gray-900 mb-4">
+              <h3 className="text-base  font-semibold text-[#343a40] mb-3">
                 Why opt for Strong Point cloud migration services?
               </h3>
               
-              <p className="text-gray-700 text-base leading-relaxed mb-8">
+              <p className="text-[#343a40] text-base leading-relaxed mb-5">
                 Through storing the business information and data centrally, the cloud offers robust security as 
                 compared to traditional data centers. Furthermore, we also provide built-in security features such 
                 as periodic updates, security analytics, and cross-enterprise visibility.
               </p>
               
-              <button className="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+              <button className="bg-[#753a88] text-white px-6 py-3 rounded-lg text-lg transition-colors">
                 Have a question?
               </button>
             </div>

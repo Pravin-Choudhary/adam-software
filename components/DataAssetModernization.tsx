@@ -7,20 +7,19 @@ const DataAssestModernization = () => {
   return (
     <div className="min-h-screen bg-gray-50 mt-18">
 
-      <section className="bg-gradient-to-br from-purple-600 via-purple-700 to-purple-800 text-white py-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+      <section className="bg-[#753a88] text-white py-40">
+        <div className="max-w-8xl w-[95%] mx-auto px-4 sm:px-6 lg:px-8  p-2">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center p-4">
+            <div className=' col-span-2'>
+              <h1 className="text-4xl lg:text-5xl font-medium mb-6">
                 Data Asset Modernization
               </h1>
-              <p className="text-lg text-purple-100 leading-relaxed">
+              <p className="text-base text-purple-100 leading-relaxed">
                 We visualize building a next-gen powerful data asset to offer a robust and faster tomorrow for the stakeholders!
               </p>
             </div>
             <div className="relative flex justify-center">
-             
-              <div className="relative">
+              <div className="relative  col-span-1">
 
                 <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg transform rotate-12">
                   <div className="w-32 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
@@ -42,7 +41,7 @@ const DataAssestModernization = () => {
                   </div>
                 </div>
 
-                
+
                 <div className="absolute -top-8 -right-8">
                   <Cloud className="h-16 w-16 text-white/30" />
                 </div>
@@ -50,7 +49,6 @@ const DataAssestModernization = () => {
                   <Cloud className="h-12 w-12 text-white/20" />
                 </div>
 
-                {/* Data Flow Arrows */}
                 <div className="absolute top-12 -right-12">
                   <div className="flex items-center space-x-2 text-white/60">
                     <div className="w-8 h-0.5 bg-white/60"></div>
@@ -64,35 +62,34 @@ const DataAssestModernization = () => {
       </section>
 
       <section className="py-5 relative bottom-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
+        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
             <div className="prose max-w-none">
-              <p className="text-gray-700 text-base leading-relaxed mb-6">
-                In today’s era, data is really the new oil! Infinite amount of data is generated every minute in countless formats. 
-                With so much data scattered all over, many companies are unable to utilize the data in a proper manner.
-                Modernizing data is all about extending, retaining, and reusing the information under these layers.
-                It involves creating a scalable and flexible data stack without much complexities and restrictions.
+              <p className="text-[#343a40] text-base leading-relaxed mb-4">
+               In today’s era, data is really the new oil! Infinite amount of data is generated every minute in countless formats.
+              With so much data scattered all over, many companies are unable to utilize the data in a proper manner.
+              Modernizing data is all about extending, retaining, and reusing the information under these layers.
+              It involves creating a scalable and flexible data stack without much complexities and restrictions.
               </p>
               
-              <p className="text-gray-900 text-base font-semibold leading-relaxed mb-6">
-                Why should you modernize your data?  
+              <p className="text-[#343a40] text-base leading-relaxed mb-4 font-semibold">
+                Why should you modernize your data? 
               </p>
               
-              <p className="text-gray-700 text-base leading-relaxed mb-6">
-                Data asset modernization is the key to enable enhanced compliance. In addition, it also assures 
-                cost-efficiency and the potential to enlighten the stakeholders with extensive business insights and revolutionary analytics capabilities.
+              <p className="text-[#343a40] text-base leading-relaxed mb-4">
+                Data asset modernization is the key to enable enhanced compliance. 
+                In addition, it also assures cost-efficiency and the potential to enlighten the stakeholders with extensive business insights and revolutionary analytics capabilities.
               </p>
               
-              <h3 className="text-base text-gray-700 mb-4">
+              <h3 className="text-base  text-[#343a40] mb-3">
                 With the latest data readily available with the help of data asset modernization, many companies can quickly adapt to the rapidly changing market and outsmart their rivals with ease.
               </h3>
               
-              <p className="text-gray-700 text-base leading-relaxed mb-8">
-                Many companies are revamping their data environment in response to the wide changes in the data landscape.
-                Making the most of the available data is also a critical component to success.
+              <p className="text-[#343a40] text-base leading-relaxed mb-5">
+                Many companies are revamping their data environment in response to the wide changes in the data landscape. Making the most of the available data is also a critical component to success.
               </p>
               
-              <button className="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+              <button className="bg-[#753a88] text-white px-6 py-3 rounded-lg text-lg transition-colors">
                 Have a question?
               </button>
             </div>

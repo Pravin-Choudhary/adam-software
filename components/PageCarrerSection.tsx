@@ -7,14 +7,13 @@ export default function PageCarrerSection() {
     <section className="bg-gray-100 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center ">
            <div className='flex justify-center mb-6'>
-                 <Image src='/ASLogo.png' alt='adamSoftwareLogo' width={350} height={100} className="object-cover block"/>
+                 <Image src='/ASLogo.png' alt='adamSoftwareLogo' width={250} height={100} className="object-cover block"/>
           </div>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Career with Adam Software Services</h2>
-          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-            We always keep our 'WORK-WORK' on the scale which permits individuals who are equally excited and curious to 
-            dream big and help move our technologies.
+          <h2 className="text-3xl md:text-4xl font-[700] tracking-wide text-[#343a40] mb-4">Career with Adam Software Services</h2>
+          <p className="text-gray-600 mb-8 text-base max-w-2xl mx-auto">
+            We always keep our 'GROW MODE' on! We seek young and powerful individuals who are equally excited and curious to break the barriers of stagnancy and adopt novel methodologies!
           </p>
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+          <button className="bg-[#154fa1] text-white px-8 py-3 rounded-lg text-base md:text-lg tracking-wide transition-colors">
             View all openings
           </button>
         </div>

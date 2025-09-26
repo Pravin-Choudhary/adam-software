@@ -4,19 +4,20 @@ import PageCarrerSection from './PageCarrerSection';
 import Footer from './Footer';
 import { Button } from './ui/button';
 import Link from 'next/link';
+import Team from './team';
 
 const AboutUS = () => {
   return (
     <div className="min-h-screen bg-gray-50 mt-18">
 
-      <section className="bg-gradient-to-br from-purple-600 via-purple-700 to-purple-800 text-white py-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+      <section className="bg-[#753a88] text-white py-40">
+        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8  p-2" >
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+            <div className='col-span-2'>
+              <h1 className="text-4xl lg:text-6xl font-medium mb-6">
                 Connectors of Innovation and Technology!
               </h1>
-              <p className="text-lg text-purple-100 leading-relaxed">
+              <p className="text-base text-purple-100 leading-relaxed">
                 Our customer-centric approach and experience in adopting and transforming modernization programs for enterprises makes us one of the pioneers in the technology modernization sector!
               </p>
               <Link href='/contact'>
@@ -25,7 +26,7 @@ const AboutUS = () => {
             </div>
             <div className="relative flex justify-center">
              
-              <div className="relative">
+              <div className="relative col-span-1">
 
                 <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg transform rotate-12">
                   <div className="w-32 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
@@ -69,21 +70,47 @@ const AboutUS = () => {
       </section>
 
   
-      <section className="py-5 relative bottom-20 ">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
-            <div className="prose max-w-none">
+      <section className="py-5 relative bottom-20 space-y-18">
+        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8 " id='introduction'>
+          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
+          <div className="prose max-w-none">
             <div className='flex justify-center'>
-              <h1 className="text-gray-700 text-2xl md:text-4xl font-semibold tracking-normal leading-relaxed mb-6">
+              <h1 className="text-[#343a40] text-2xl md:text-5xl  tracking-normal leading-relaxed mb-2">
                 Exceptional Services. Outstanding Performance!
               </h1>
             </div>
             <div>
-                <p>
+                <p className='flex justify-center prose text-center text-[#343a40]'>
                   Our talented workforce always strives to deliver superior and excellent technical solutions through a customer-centric approach! With rich experience in technology development, we are always committed to offer complete satisfaction to our clients. We also provide customized solutions according to the requirement of the clients!
                 </p>
             </div>
+            </div>
+          </div>
+        </div>
 
+        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8" id='team'>
+          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
+          <div className="prose max-w-none">
+            <div>
+                  <Team/>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8" id='vision'>
+          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
+          <div className="prose max-w-none">
+            <div className='flex justify-center'>
+              <h1 className="text-[#343a40] text-2xl md:text-5xl  racking-normal leading-relaxed mb-2">
+                Our Vision
+              </h1>
+            </div>
+            <div>
+                <p className='flex justify-center prose text-center text-[#343a40]'>
+                  We envision a world where technology is accessible to all and void of any barriers. We have a vision of creating a community of intelligent like-minded individuals who will empower numerous stakeholders in various industries to adopt latest technological innovations
+                </p>
+            </div>
             </div>
           </div>
         </div>

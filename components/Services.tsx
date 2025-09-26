@@ -9,15 +9,15 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-gray-50 mt-18">
 
-      <section className="bg-[#154fa1] text-white py-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="bg-[#154fa1] text-white py-30">
+        <div className="max-w-8xl w-[95%] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl lg:text-5xl font-medium tracking-wide mb-6">
+              <h1 className="text-4xl lg:text-5xl tracking-wide mb-6">
                 Qualified Development<br />
                 Resources. At a Click!
               </h1>
-              <p className="text-base mb-8 text-blue-100">
+              <p className="text-base mb-8 ">
                 Developing innovative and revolutionary business solutions is our passion! From data modernization to IT staffing, you can depend on Strong Point for the most valued solutions.
               </p>
               <Link
@@ -54,14 +54,14 @@ const Services = () => {
       </section>
 
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-20 relative bottom-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 pb-0 mb-0 space-y-15 relative bottom-32 ">
         
 
-        <section className="bg-white rounded-2xl shadow-lg p-8 py-20 lg:p-12 lg:py-40 ">
+        <section className="bg-white rounded-2xl shadow-2xl p-8 py-20 lg:p-12 lg:py-25">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Data Asset Modernization</h2>
-              <p className="text-gray-600 mb-8 leading-relaxed">
+              <h2 className="text-4xl md:text-6xl font-medium text-[#343a40] mb-6">Data Asset Modernization</h2>
+              <p className="text-gray-700 mb-8 leading-relaxed">
                 We help organizations modernize their data infrastructure and analytics capabilities. 
                 Our expert consultants implement secure, scalable, and effectively managed data assets 
                 while ensuring accessibility to stakeholders. We ensure democratization of data to create 
@@ -70,7 +70,7 @@ const Services = () => {
               </p>
             <Link
             href='/data-asset-modernization'>
-              <button className="bg-[#154fa1] text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+              <button className="bg-[#154fa1] text-white px-3 py-1 md:px-6 md:py-3 rounded-lg font-light md:font-medium text-lg md:text-xl md:tracking-wide transition-colors">
                 Learn more
               </button>
             </Link>
@@ -96,18 +96,18 @@ const Services = () => {
         </section>
 
 
-        <section className="bg-white rounded-2xl shadow-lg p-8 py-20 lg:p-12 lg:py-40">
+        <section className="bg-white rounded-2xl shadow-2xl p-8 py-20 lg:p-12 lg:py-25">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="lg:order-2">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Cloud Migration</h2>
-              <p className="text-gray-600 mb-8 leading-relaxed">
+              <h2 className="text-4xl md:text-6xl font-medium text-[#343a40] mb-6">Cloud Migration</h2>
+              <p className="text-gray-700 mb-8 leading-relaxed">
                 Migration to the cloud has become a key enabler for companies looking to achieve digital 
                 transformations. We collaborate with you, understand your requirements, and create the 
                 perfect cloud strategy by leveraging our rich experience with latest technologies.
               </p>
             <Link
             href='/cloud-migration'>
-              <button className="bg-[#154fa1] text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+              <button className="bg-[#154fa1] text-white px-3 py-1 md:px-6 md:py-3 rounded-lg font-light md:font-medium text-lg md:text-xl md:tracking-wide transition-colors">
                 Learn more
               </button>
             </Link>
@@ -129,11 +129,11 @@ const Services = () => {
           </div>
         </section>
 
-        <section className="bg-white rounded-2xl shadow-lg p-8 py-20 lg:p-12 lg:py-40">
+        <section className="bg-white rounded-2xl shadow-2xl p-8 py-20 lg:p-12 lg:py-25">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Application Modernization</h2>
-              <p className="text-gray-600 mb-8 leading-relaxed">
+              <h2 className="text-4xl md:text-6xl font-medium text-[#343a40] mb-6">Application Modernization</h2>
+              <p className="text-gray-700 mb-8 leading-relaxed">
                 Migrate your applications to a cloud and standards-based infrastructure with minimal 
                 disruption and conflict as our team will assist you in reducing capital spends 
                 for cloud strategic and manage governance advanced through enhanced modernization 
@@ -141,8 +141,7 @@ const Services = () => {
               </p>
             <Link
             href='/application-modernization'>
-             <button className="bg-[#154fa1] text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-                Learn more
+             <button className="bg-[#154fa1] text-white px-3 py-1 md:px-6 md:py-3 rounded-lg font-light md:font-medium text-lg md:text-xl md:tracking-wide transition-colors">
               </button>
             </Link>
             </div>
@@ -172,18 +171,18 @@ const Services = () => {
         </section>
 
 
-        <section className="bg-white rounded-2xl shadow-lg p-8 py-20 lg:p-12 lg:py-40">
+        <section className="bg-white rounded-2xl shadow-2xl p-8 py-20 lg:p-12 lg:py-25">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="lg:order-2">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Professional Services</h2>
-              <p className="text-gray-600 mb-8 leading-relaxed">
+              <h2 className="text-4xl md:text-6xl font-medium text-[#343a40] mb-6">Professional Services</h2>
+              <p className="text-gray-700 mb-8 leading-relaxed">
                 Standing out from talent can be like finding a gem in the desert! If you think about 
                 developing new or consulting us on how to help you with our development and consulting services 
                 also that, we are more than capable of providing complete and comprehensive services to let.
               </p>
             <Link
             href='/professional-services'>
-             <button className="bg-[#154fa1] text-white px-8 py-4 rounded-lg font-medium text-lg transition-colors">
+             <button className="bg-[#154fa1] text-white px-3 py-1 md:px-6 md:py-3 rounded-lg font-light md:font-medium text-lg md:text-xl md:tracking-wide transition-colors">
                 Learn more
               </button>
             </Link>
