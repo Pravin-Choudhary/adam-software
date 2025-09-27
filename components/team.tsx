@@ -25,10 +25,10 @@ export default function TeamSection() {
     return (
 
             <div className="mx-auto max-w-3xl px-8 lg:px-0">
-                <h2 className="mb-6 text-4xl font-bold md:mb-10 lg:text-5xl">Our team</h2>
+                <h2 className="mb-6 text-4xl font-bold md:mb-10 lg:text-5xl text-center">Our team</h2>
 
                 <div>
-                    <div className="grid grid-cols-2 gap-4 border-t py-6 md:grid-cols-4">
+                    <div className="grid grid-cols-2 gap-5 border-t py-6 md:grid-cols-4">
                         {members.map((member, index) => (
                             <div key={index}>
                                 <div className="bg-background size-20 rounded-full border p-0.5 shadow shadow-zinc-950/5">

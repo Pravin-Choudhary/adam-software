@@ -56,7 +56,6 @@ const AboutUS = () => {
                   <Cloud className="h-12 w-12 text-white/20" />
                 </div>
 
-                {/* Data Flow Arrows */}
                 <div className="absolute top-12 -right-12">
                   <div className="flex items-center space-x-2 text-white/60">
                     <div className="w-8 h-0.5 bg-white/60"></div>
@@ -72,15 +71,15 @@ const AboutUS = () => {
   
       <section className="py-5 relative bottom-20 space-y-18">
         <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8 " id='introduction'>
-          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
+          <div className="bg-white rounded-2xl shadow-2xl p-3 px-5 md:p-10 md:px-15 lg:p-18 lg:px-20">
           <div className="prose max-w-none">
-            <div className='flex justify-center'>
-              <h1 className="text-[#343a40] text-2xl md:text-5xl  tracking-normal leading-relaxed mb-2">
+            <div className='flex justify-start md:justify-center items-center'>
+              <h1 className="text-[#343a40] text-2xl md:text-3xl lg:text-4xl font-semibold  md:text-center tracking-normal leading-relaxed mb-2">
                 Exceptional Services. Outstanding Performance!
               </h1>
             </div>
             <div>
-                <p className='flex justify-center prose text-center text-[#343a40]'>
+                <p className='flex justify-start md:justify-center items-center prose md:text-center text-[#343a40]'>
                   Our talented workforce always strives to deliver superior and excellent technical solutions through a customer-centric approach! With rich experience in technology development, we are always committed to offer complete satisfaction to our clients. We also provide customized solutions according to the requirement of the clients!
                 </p>
             </div>
@@ -89,7 +88,7 @@ const AboutUS = () => {
         </div>
 
         <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8" id='team'>
-          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
+          <div className="bg-white rounded-2xl shadow-2xl p-3 px-5 md:p-10 md:px-15 lg:p-18 lg:px-20">
           <div className="prose max-w-none">
             <div>
                   <Team/>
@@ -98,17 +97,17 @@ const AboutUS = () => {
           </div>
         </div>
 
-        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8" id='vision'>
-          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
+        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8 " id='vision'>
+          <div className="bg-white rounded-2xl shadow-2xl p-3 px-5 md:p-10 md:px-15 lg:p-18 lg:px-20">
           <div className="prose max-w-none">
-            <div className='flex justify-center'>
-              <h1 className="text-[#343a40] text-2xl md:text-5xl  racking-normal leading-relaxed mb-2">
+            <div className='flex justify-start md:justify-center items-center'>
+              <h1 className="text-[#343a40] text-2xl md:text-3xl lg:text-4xl font-semibold  md:text-center tracking-normal leading-relaxed mb-2">
                 Our Vision
               </h1>
             </div>
             <div>
-                <p className='flex justify-center prose text-center text-[#343a40]'>
-                  We envision a world where technology is accessible to all and void of any barriers. We have a vision of creating a community of intelligent like-minded individuals who will empower numerous stakeholders in various industries to adopt latest technological innovations
+                <p className='flex justify-start md:justify-center items-center prose md:text-center text-[#343a40]'>
+                  We envision a world where technology is accessible to all and void of any barriers. We have a vision of creating a community of intelligent like-minded individuals who will empower numerous stakeholders in various industries to adopt latest technological innovations!
                 </p>
             </div>
             </div>

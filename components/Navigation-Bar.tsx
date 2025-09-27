@@ -1,8 +1,7 @@
-
 import { Database, CloudUpload, Boxes, Users } from "lucide-react";
-import Logo from "@/components/logo"
-import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
+import Logo from "@/components/logo";
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -10,17 +9,18 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu"
+} from "@/components/ui/navigation-menu";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover"
-
+} from "@/components/ui/popover";
+import Link from "next/link";
 
 const navigationLinks = [
   { href: "/", label: "Home" },
   {
+    href: "/about-us",
     label: "About Us",
     submenu: true,
     type: "description",
@@ -35,7 +35,7 @@ const navigationLinks = [
         label: "Team",
         description: "Dedicated professionals behind success",
       },
-            {
+      {
         href: "/about-us/#vision",
         label: "Vision",
         description: "Inspiring goals shaping our future",
@@ -43,27 +43,42 @@ const navigationLinks = [
     ],
   },
   {
+    href: "/services",
     label: "Service",
     submenu: true,
     type: "icon",
     items: [
-      { href: "/data-asset-modernization", label: "Data Asset Modernization", icon: "Database" },
-      { href: "/cloud-migration", label: "Cloud Migration", icon: "CloudUpload" },
-      { href: "/application-modernization", label: "Application Modernization", icon: "Boxes" },
-      { href: "/professional-services", label: "Professional Services", icon: "Users" },
+      {
+        href: "/data-asset-modernization",
+        label: "Data Asset Modernization",
+        icon: "Database",
+      },
+      {
+        href: "/cloud-migration",
+        label: "Cloud Migration",
+        icon: "CloudUpload",
+      },
+      {
+        href: "/application-modernization",
+        label: "Application Modernization",
+        icon: "Boxes",
+      },
+      {
+        href: "/professional-services",
+        label: "Professional Services",
+        icon: "Users",
+      },
     ],
   },
-   { href: "#careers", label: "Careers" },
-   { href: "/contact", label: "Contact Us"},
-]
+  { href: "#careers", label: "Careers" },
+  { href: "/contact", label: "Contact Us" },
+];
 
 export default function NavigationBar() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-background  px-4 md:px-6">
       <div className="flex h-18 items-center justify-between gap-4 md:mx-10">
-
         <div className="flex items-center justify-center gap-2 p-2 w-full">
-
           <Popover>
             <PopoverTrigger asChild>
               <Button
@@ -162,9 +177,11 @@ export default function NavigationBar() {
                   <NavigationMenuItem key={index}>
                     {link.submenu ? (
                       <>
-                        <NavigationMenuTrigger className="text-muted-foreground hover:text-primary bg-transparent px-2 py-1.5 font-medium *:[svg]:-me-0.5 *:[svg]:size-3.5">
-                          {link.label}
-                        </NavigationMenuTrigger>
+                        <Link href={link.href ?? "#"}>
+                          <NavigationMenuTrigger className="text-muted-foreground hover:text-primary bg-transparent px-2 py-1.5 font-medium *:[svg]:-me-0.5 *:[svg]:size-3.5">
+                            {link.label}
+                          </NavigationMenuTrigger>
+                        </Link>
                         <NavigationMenuContent className="data-[motion=from-end]:slide-in-from-right-16! data-[motion=from-start]:slide-in-from-left-16! data-[motion=to-end]:slide-out-to-right-16! data-[motion=to-start]:slide-out-to-left-16! z-50 p-1">
                           <ul
                             className={cn(
@@ -179,7 +196,6 @@ export default function NavigationBar() {
                                   href={item.href}
                                   className="py-1.5"
                                 >
-                                  {/* Display icon if present */}
                                   {link.type === "icon" && "icon" in item && (
                                     <div className="flex items-center gap-4">
                                       {item.icon === "Database" && (
@@ -213,8 +229,6 @@ export default function NavigationBar() {
                                       <span>{item.label}</span>
                                     </div>
                                   )}
-
-                                  {/* Display label with description if present */}
                                   {link.type === "description" &&
                                   "description" in item ? (
                                     <div className="space-y-1">
@@ -226,7 +240,6 @@ export default function NavigationBar() {
                                       </p>
                                     </div>
                                   ) : (
-                                    // Display simple label if not icon or description type
                                     !link.type ||
                                     (link.type !== "icon" &&
                                       link.type !== "description" && (
@@ -255,5 +268,5 @@ export default function NavigationBar() {
         </div>
       </div>
     </header>
-  )
+  );
 }

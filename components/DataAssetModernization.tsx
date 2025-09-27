@@ -63,8 +63,8 @@ const DataAssestModernization = () => {
       </section>
 
       <section className="py-5 relative bottom-20">
-        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
+        <div className="max-w-8xl w-full md:w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-2xl shadow-2xl p-5 px-7 md:p-10 md:px-15 lg:p-18 lg:px-20">
             <div className="prose max-w-none">
               <p className="text-[#343a40] text-base leading-relaxed mb-4">
                In today’s era, data is really the new oil! Infinite amount of data is generated every minute in countless formats.

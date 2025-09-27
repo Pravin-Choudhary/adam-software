@@ -63,8 +63,8 @@ const ProfessionalServices = () => {
       </section>
 
       <section className="py-5 relative bottom-20">
-        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
+        <div className="max-w-8xl w-full md:w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-2xl shadow-2xl p-5 px-7 md:p-10 md:px-15 lg:p-18 lg:px-20">
             <div className="prose max-w-none">
               <p className="text-[#343a40] text-base leading-relaxed mb-4">
                The demand for skilled IT labor has multiplied rapidly over the years. Staffing demands continue to change at an accelerated pace. It is difficult for any company to keep up with the ever-evolving staffing demand. This is where professional IT staffing solutions come into the picture. Many employers are turning towards IT staffing solution providers as the process is time-consuming and complex for them. IT support staffing specialists like Strong Point consulting can fill in the void of talented individuals. This factor can help in meeting your long-term goals.

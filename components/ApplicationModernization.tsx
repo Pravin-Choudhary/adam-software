@@ -63,8 +63,8 @@ const ApplicationModernization = () => {
       </section>
 
       <section className="py-5 relative bottom-20">
-        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl shadow-2xl p-8 px-18 lg:p-18 lg:px-20">
+        <div className="max-w-8xl w-full md:w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-2xl shadow-2xl p-5 px-7 md:p-10 md:px-15 lg:p-18 lg:px-20">
             <div className="prose max-w-none">
               <p className="text-[#343a40] text-base leading-relaxed mb-4">
                The IT landscape has transformed extensively over the years. Relying on traditional legacy systems can be a deterrent to the growth structure of any organization. Updating the existing legacy applications is the need of the hour. Application modernization does just that. Instead of developing or deploying a new legacy application, upgrading the existing one proves to be beneficial and consumes less time. These benefits are enough to convince any company to invest in application modernization services.
