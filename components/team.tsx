@@ -25,7 +25,7 @@ export default function TeamSection() {
     return (
 
             <div className="mx-auto max-w-3xl px-8 lg:px-0">
-                <h2 className="mb-6 text-4xl font-bold md:mb-10 lg:text-5xl text-center">Our team</h2>
+                <h2 className="mb-6 text-3xl font-bold md:mb-10 lg:text-4xl text-center text-[#343a40]">Our team</h2>
 
                 <div>
                     <div className="grid grid-cols-2 gap-5 border-t py-6 md:grid-cols-4">

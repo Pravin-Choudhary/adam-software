@@ -1,5 +1,5 @@
 
-import { Cloud, Database, Shield, ArrowRight, BarChart3, Zap } from 'lucide-react';
+import { Cloud, Shield, ArrowRight ,Truck, Building2, Heart } from 'lucide-react';
 import PageCarrerSection from './PageCarrerSection';
 import Footer from './Footer';
 import { Button } from './ui/button';
@@ -7,6 +7,33 @@ import Link from 'next/link';
 import Team from './team';
 
 const AboutUS = () => {
+  const industries = [
+    {
+      id: 1,
+      icon: Truck,
+      title: "Transportation & Logistics",
+      description: "Cost-efficient solutions for great operational efficiency!"
+    },
+    {
+      id: 2,
+      icon: Building2,
+      title: "Financial Services",
+      description: "Better data management and advanced scalability"
+    },
+    {
+      id: 3,
+      icon: Heart,
+      title: "Healthcare",
+      description: "Integrating health with technology!"
+    },
+    {
+      id: 4,
+      icon: Shield,
+      title: "Public sector",
+      description: "Accommodate community needs through better operability!"
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-gray-50 mt-18">
 
@@ -115,6 +142,43 @@ const AboutUS = () => {
         </div>
       </section>
 
+      
+        <div className="max-w-8xl w-[90%] mx-auto px-4 sm:px-6 lg:px-8 mb-10" id='vision'>
+          <div className="bg-white rounded-2xl shadow-2xl p-3 px-5 md:p-10 md:px-15 lg:p-18 lg:px-20">
+          <div className="prose max-w-none">
+            <div className='flex justify-center items-center mb-4 md:mb-0'>
+              <h1 className="text-[#343a40] text-2xl md:text-3xl lg:text-4xl font-semibold  md:text-center tracking-normal leading-relaxed mb-2">
+                Clients Industries
+              </h1>
+            </div>
+            <div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
+            {industries.map((industry) => {
+              const IconComponent = industry.icon;
+              return (
+                <div key={industry.id} className="text-center">
+                  {/* Icon Circle */}
+                  <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <IconComponent className="h-8 w-8 text-[#154fa1]"/>
+                  </div>
+                  
+                  {/* Industry Title */}
+                  <h3 className="text-xl lg:text-xl text-gray-900 mb-4">
+                    {industry.title}
+                  </h3>
+                  
+                  {/* Industry Description */}
+                  <p className="text-[#343a40] text-base leading-relaxed max-w-md mx-auto">
+                    {industry.description}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+            </div>
+            </div>
+          </div>
+        </div>
      
         <PageCarrerSection/>
         <Footer/>

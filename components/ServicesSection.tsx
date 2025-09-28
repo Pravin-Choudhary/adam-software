@@ -70,7 +70,7 @@ const ServicesSection = () => {
                   <Image 
                     src={service.icon} 
                     alt={service.title}
-                    className="w-16 h-16 object-contain group-hover:scale-110 transition-transform duration-300"
+                    className="w-16 h-16 object-contain group-hover:scale-110 transition-transform duration-300 rounded-lg"
                   />
                 </div>
                 <CardTitle className="text-2xl font-bold text-foreground mb-3">

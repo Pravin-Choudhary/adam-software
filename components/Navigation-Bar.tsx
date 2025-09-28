@@ -170,7 +170,6 @@ export default function NavigationBar() {
             <a href="#" className="text-primary hover:text-primary/90">
               <Logo />
             </a>
-            {/* Navigation menu */}
             <NavigationMenu viewport={false} className="max-md:hidden">
               <NavigationMenuList className="gap-2">
                 {navigationLinks.map((link, index) => (

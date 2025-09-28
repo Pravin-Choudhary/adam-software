@@ -6,22 +6,15 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
-      { name: "Data Asset Modernization", href: "#services" },
-      { name: "Cloud Migration", href: "#services" },
-      { name: "Application Modernization", href: "#services" },
-      { name: "Professional Services", href: "#services" }
+      { name: "Data Asset Modernization", href: "/data-asset-modernization" },
+      { name: "Cloud Migration", href: "/cloud-migration" },
+      { name: "Application Modernization", href: "/application-modernization" },
+      { name: "Professional Services", href: "/professional-services" }
     ],
     company: [
-      { name: "About Us", href: "#about" },
+      { name: "About Us", href: "/about-us" },
       { name: "Our Team", href: "#team" },
-      { name: "Careers", href: "#careers" },
-      { name: "Case Studies", href: "#case-studies" }
-    ],
-    resources: [
-      { name: "Blog", href: "#blog" },
-      { name: "Whitepapers", href: "#resources" },
-      { name: "Webinars", href: "#webinars" },
-      { name: "Documentation", href: "#docs" }
+      { name: "Careers", href: "/careers" },
     ]
   };
 
@@ -46,7 +39,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Info */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-3">
             <div className="mb-6">
               <h3 className="text-2xl font-bold mb-4">Adam Software Services</h3>
               <p className="text-primary-foreground/80 leading-relaxed mb-6">
@@ -56,7 +49,7 @@ const Footer = () => {
             </div>
             
             {/* Contact Info */}
-            <div className="space-y-3 mb-6">
+            <div className="space-y-3 mb-6 ">
               <div className="flex items-center text-primary-foreground/80">
                 <Phone className="h-4 w-4 mr-3" />
                 <span>(555) 123-4567</span>
@@ -65,8 +58,8 @@ const Footer = () => {
                 <Mail className="h-4 w-4 mr-3" />
                 <span>info@adamsoftwareservices.com</span>
               </div>
-              <div className="flex items-center text-primary-foreground/80">
-                <MapPin className="h-4 w-4 mr-3" />
+              <div className="flex items-start text-primary-foreground/80">
+                <MapPin className="w-10 mr-3 " />
                 <span>Global Headquarters
                   Corporate Center, 1600 Golf Road, Suite 1200, Rolling Meadow, IL 60008 
                   India Headquarters 
@@ -127,22 +120,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources Links */}
-          <div>
-            <h4 className="font-semibold mb-4">Resources</h4>
-            <ul className="space-y-2">
-              {footerLinks.resources.map((link) => (
-                <li key={link.name}>
-                  <a 
-                    href={link.href}
-                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
       </div>
 
