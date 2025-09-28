@@ -70,7 +70,7 @@ const navigationLinks = [
       },
     ],
   },
-  { href: "#careers", label: "Careers" },
+  { href: "/careers", label: "Careers" },
   { href: "/contact", label: "Contact Us" },
 ];
 
