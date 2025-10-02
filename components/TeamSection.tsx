@@ -11,7 +11,7 @@ import Link from "next/link";
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: "Michael Rodriguez",
+      name: "Anjali Agarwal",
       role: "Chief Executive Officer",
       bio: "20+ years of enterprise technology leadership, specializing in digital transformation strategies that deliver measurable business outcomes.",
       image: ceoImage,
@@ -57,10 +57,10 @@ const TeamSection = () => {
         {/* Team Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {teamMembers.map((member, index) => (
-            <Card key={index} className="group hover:shadow-strong transition-all duration-300 hover:-translate-y-2 bg-card border-border">
+            <Card key={index} className="group hover:shadow-strong transition-all duration-300 hover:-translate-y-2 bg-card border-border flex items-end">
               <CardContent className="p-6 text-center">
                 {/* Profile Image */}
-                <div className="relative mb-6">
+                {/* <div className="relative mb-6">
                   <div className="w-32 h-32 mx-auto rounded-full overflow-hidden shadow-medium">
                     <Image
                       src={member.image} 
@@ -68,7 +68,7 @@ const TeamSection = () => {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
-                </div>
+                </div> */}
 
                 {/* Member Info */}
                 <h3 className="text-xl font-bold text-foreground mb-2">
